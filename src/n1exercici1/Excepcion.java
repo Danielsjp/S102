@@ -11,16 +11,16 @@ public class Excepcion {
 		
 		try {
 			
-			c= a + a;
+			c= a / 0 ;
 		}
 		
 		catch (Exception e) {
-		      System.out.println("Algo ha ido mal");
+		      System.out.println("Algo ha ido mal, el error es: "+ e.getMessage());
 		
 		}
 		
 		finally {
-			System.out.println("Todo OK");
+			System.out.println("El programa continua.");
 			
 		}
 	}
