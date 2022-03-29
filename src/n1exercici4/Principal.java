@@ -10,8 +10,8 @@ class MyException extends Exception{
 }
 
 public class Principal {
-	public static final String MENSAJE="Aixo ha fallat";
-	public static void main(String[] args) {
+	private static final String MENSAJE="Aixo ha fallat";
+	private static void main(String[] args) {
 		try {
 			if(MENSAJE.contains("fallat")) 
 			{

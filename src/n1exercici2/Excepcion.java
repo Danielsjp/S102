@@ -2,7 +2,7 @@ package n1exercici2;
 
 public class Excepcion {
 	
-	public int num;
+	private int num;
 
 	public Excepcion(int text)
 
